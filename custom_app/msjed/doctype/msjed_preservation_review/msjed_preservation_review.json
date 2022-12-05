@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-11-18 02:44:13.813387",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "from_page",
+  "to_page",
+  "column_break_3",
+  "page_number",
+  "date",
+  "section_break_6",
+  "level",
+  "student_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "from_page",
+   "fieldtype": "Int",
+   "label": "From Page"
+  },
+  {
+   "fieldname": "to_page",
+   "fieldtype": "Int",
+   "label": "To Page"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "page_number",
+   "fieldtype": "Int",
+   "label": "Page Number"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "level",
+   "fieldtype": "Select",
+   "label": "Level ",
+   "options": "Level -1\nLevel -2"
+  },
+  {
+   "fieldname": "student_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student",
+   "options": "Msjed Student",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-11-20 16:29:47.402626",
+ "modified_by": "Administrator",
+ "module": "msjed",
+ "name": "Msjed Preservation Review",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

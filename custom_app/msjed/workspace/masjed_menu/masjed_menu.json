@@ -1,0 +1,74 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Masjed Menu</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Masjed\",\"col\":4}}]",
+ "creation": "2022-12-04 17:39:56.457408",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "label": "Masjed Menu",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Masjed",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Msjed",
+   "link_count": 0,
+   "link_to": "Masjed",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student",
+   "link_count": 0,
+   "link_to": "Msjed Student",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Episodes",
+   "link_count": 0,
+   "link_to": "Msjed Episodes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Duties",
+   "link_count": 0,
+   "link_to": "Msjed Duties",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-12-04 17:56:09.972864",
+ "modified_by": "Administrator",
+ "module": "msjed",
+ "name": "Masjed Menu",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "Masjed",
+ "roles": [],
+ "sequence_id": 31.0,
+ "shortcuts": [],
+ "title": "Masjed Menu"
+}

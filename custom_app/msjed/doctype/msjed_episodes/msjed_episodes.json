@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "autoname": "field:episodes_name",
+ "creation": "2022-11-18 01:34:32.170043",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "episodes_name",
+  "student_no",
+  "column_break_3",
+  "episodes_type",
+  "teacher_id",
+  "section_break_6",
+  "masjed_id",
+  "column_break_8",
+  "episodes_time",
+  "section_break_10",
+  "student_ids"
+ ],
+ "fields": [
+  {
+   "fieldname": "episodes_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Episodes Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "student_no",
+   "fieldtype": "Int",
+   "label": "Number Of Student",
+   "read_only": 1
+  },
+  {
+   "fieldname": "episodes_time",
+   "fieldtype": "Time",
+   "label": "Episodes Time "
+  },
+  {
+   "fieldname": "episodes_type",
+   "fieldtype": "Link",
+   "label": "Episodes Type",
+   "options": "Msjed Type List"
+  },
+  {
+   "fieldname": "teacher_id",
+   "fieldtype": "Link",
+   "label": "Episodes Teacher",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "masjed_id",
+   "fieldtype": "Link",
+   "label": "Masjed",
+   "options": "Masjed"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "student_ids",
+   "fieldtype": "Table",
+   "label": "Students",
+   "options": "Msjed Student Line"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-12-04 20:14:32.181135",
+ "modified_by": "Administrator",
+ "module": "msjed",
+ "name": "Msjed Episodes",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

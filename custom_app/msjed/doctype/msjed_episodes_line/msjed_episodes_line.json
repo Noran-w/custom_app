@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-11-28 16:01:07.586598",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "episodes_id",
+  "masjed_id",
+  "student_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "episodes_id",
+   "fieldtype": "Link",
+   "label": "Episodes",
+   "options": "Msjed Episodes"
+  },
+  {
+   "fieldname": "masjed_id",
+   "fieldtype": "Link",
+   "label": "Masjed",
+   "options": "Masjed"
+  },
+  {
+   "depends_on": "episodes_id",
+   "fetch_from": "episodes_id.student_no",
+   "fieldname": "student_no",
+   "fieldtype": "Int",
+   "label": "Student No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-11-28 16:01:07.586598",
+ "modified_by": "Administrator",
+ "module": "msjed",
+ "name": "Msjed Episodes Line",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,136 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:student_name",
+ "creation": "2022-11-18 02:25:23.649377",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_name",
+  "nationality_id",
+  "column_break_3",
+  "phone",
+  "student_type_id",
+  "section_break_6",
+  "education_level",
+  "year_plan",
+  "column_break_9",
+  "episodes_id",
+  "email",
+  "section_break_10",
+  "preservation_review_ids",
+  "section_break_13",
+  "duties_ids"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "nationality_id",
+   "fieldtype": "Link",
+   "label": "Nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "student_type_id",
+   "fieldtype": "Link",
+   "label": "Student Type ",
+   "options": "Msjed Student Type"
+  },
+  {
+   "fieldname": "education_level",
+   "fieldtype": "Select",
+   "label": "Education Level",
+   "options": "Level -1\nLevel -2"
+  },
+  {
+   "fieldname": "year_plan",
+   "fieldtype": "Data",
+   "label": "Year Plan "
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "episodes_id",
+   "fieldtype": "Link",
+   "label": "Episodes",
+   "options": "Msjed Episodes"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 3,
+   "fieldname": "duties_ids",
+   "fieldtype": "Table",
+   "label": "Duties",
+   "options": "Msjed Duties"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 5,
+   "fieldname": "preservation_review_ids",
+   "fieldtype": "Table",
+   "label": "Preservation Review",
+   "options": "Msjed Preservation Review"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-23 12:32:08.112271",
+ "modified_by": "Administrator",
+ "module": "msjed",
+ "name": "Msjed Student",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

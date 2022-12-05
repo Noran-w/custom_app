@@ -1,0 +1,24 @@
+{
+ "content": null,
+ "creation": "2022-12-04 16:59:58.300367",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2022-12-04 17:12:37.816257",
+ "modified_by": "Administrator",
+ "module": "msjed",
+ "name": "msjed",
+ "owner": "Administrator",
+ "page_name": "msjed",
+ "restrict_to_domain": "Masjed",
+ "roles": [
+  {
+   "role": "All"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 1,
+ "title": "Masjed"
+}

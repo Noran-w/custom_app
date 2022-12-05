@@ -1,0 +1,16 @@
+// Copyright (c) 2022, wathig and contributors
+// For license information, please see license.txt
+
+frappe.ui.form.on('Msjed Student', {
+	// refresh: function(frm) {
+
+	// }
+});
+
+
+frappe.ui.form.on('Msjed Duties', {
+    from_render: function(frm, cdt, cdn){
+        let item = locals[cdt][cdn]
+        item.student_id = "XXXXXXXX"
+    }
+});
